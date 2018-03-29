@@ -1,24 +1,24 @@
 ## 五种基本数据类型
 
-#### int 
+The type of a variable determines how much space it occupies in storage and how the bit pattern stored is interpreted.
 
-  The int data type is used for variables that will store integers.
+在C里面声明变量需要指定类型，每种类型占据的空间是不一样的。也就是站的bit位也是不一样的。
 
-  integers always take up 4 bytes of memory\(32 bits\).This means the range of values they can store is necessarily limited to 32 bits worth of information. 
+#### int
 
+The int data type is used for variables that will store integers.
 
+integers always take up 4 bytes of memory\(32 bits\).This means the range of values they can store is necessarily limited to 32 bits worth of information.
 
 #### unsigned int
 
-   unsigned is a qualifier that can be applied to certain types\(including int\) .
-
-
+unsigned is a qualifier that can be applied to certain types\(including int\) .
 
 #### char
 
-   The char data type is used for variables that will store single characters.
+The char data type is used for variables that will store single characters.
 
-   Characters always take up 1 bytes of memory\(b bits\).This means the range of values they can store is necessarily  limited to 8 bits worth of information. -128 ------  128
+Characters always take up 1 bytes of memory\(b bits\).This means the range of values they can store is necessarily  limited to 8 bits worth of information. -128 ------  128
 
 #### float
 
@@ -32,21 +32,15 @@ The double data type is used for variables that will store floating-point values
 
 They always take up 8 bytes of memory\(64 bits\).
 
-
-
 #### void
 
- is a type but not a data type.
+is a type but not a data type.
 
 Functions can have a void return type, which just mean they don't return a value.
 
 The parameters list of a function can also be a void.It simple means  the function takes no parameters.
 
-
-
 #### create a variable
-
-
 
 ```
 int number; //declaration 声明
