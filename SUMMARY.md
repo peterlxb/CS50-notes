@@ -8,7 +8,7 @@
   * 条件语句
   * 循环
   * Debugging
-  * 函数Functions
+  * [函数Functions](chapter1/han-shu-functions.md)
   * [变量及作用域](chapter1/bian-liang-ji-zuo-yong-yu.md)
   * 数组Arrays
   * [命令行参数](chapter1/ming-ling-xing-can-shu.md)
