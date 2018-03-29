@@ -18,20 +18,20 @@
 
 ```
 #include <stdio.h>
- 
+
 int main () {
 
   /* local variable declaration */
   int a, b;
   int c;
- 
+
   /* actual initialization */
   a = 10;
   b = 20;
   c = a + b;
- 
+
   printf ("value of a = %d, b = %d and c = %d\n", a, b, c);
- 
+
   return 0;
 }
 ```
@@ -46,22 +46,22 @@ int main () {
 
 ```
 #include <stdio.h>
- 
+
 /* global variable declaration */
 int g;
- 
+
 int main () {
 
   /* local variable declaration */
   int a, b;
- 
+
   /* actual initialization */
   a = 10;
   b = 20;
   g = a + b;
- 
+
   printf ("value of a = %d, b = %d and g = %d\n", a, b, g);
- 
+
   return 0;
 }
 ```
@@ -76,16 +76,16 @@ value of g = 10
 
 > Formal parameters, are treated as local variables with-in a function and they take precedence over global variables.
 
-形式参数在函数内部被当作局部变量对待。优先级高于全局变量。
+形式参数在函数内部被当作局部变量对待。优先级要高于全局变量。
 
 使用示例
 
 ```
 #include <stdio.h>
- 
+
 /* global variable declaration */
 int a = 20;
- 
+
 int main () {
 
   /* local variable declaration in main function */
@@ -126,6 +126,4 @@ value of c in main() = 30
 全局变量定义后，系统会自动初始化。
 
 ![](/assets/initial-global.png)
-
-
 
