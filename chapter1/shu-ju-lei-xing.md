@@ -4,6 +4,24 @@ The type of a variable determines how much space it occupies in storage and how 
 
 在C里面声明变量需要指定类型，每种类型占据的空间是不一样的。也就是站的bit位也是不一样的。
 
+数据类型可以分为四类
+
+1.**Basic Types基本类型**
+
+算术类型: \(a\) integer types and \(b\) floating-point types.整数和浮点型
+
+2.**Enumerated types 枚举类型**
+
+也是算术类型，只能被定义为离散的数字
+
+3.**The type void 空类型**
+
+4.**Derived types 派生类型**They include \(a\) Pointer types, \(b\) Array types, \(c\) Structure types, \(d\) Union types and \(e\) Function types.
+
+
+
+CS50的定义
+
 #### int
 
 The int data type is used for variables that will store integers.
@@ -53,4 +71,10 @@ char letter = 'H';//initialization
 ```
 
 In general ,it's good to practice to only declare variables when you need them.
+
+---------------------------
+
+
+
+
 
