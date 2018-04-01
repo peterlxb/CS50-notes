@@ -10,4 +10,13 @@
   * [函数Functions](chapter1/han-shu-functions.md)
   * [变量及作用域](chapter1/bian-liang-ji-zuo-yong-yu.md)
   * [数组Arrays](chapter1/shu-zu-arrays.md)
+* Week2
+  * 算法
+  * selection Sort选择排序
+  * Bubble sort冒泡排序
+  * Insertion sort插入排序
+  * Linear Search
+  * Binary Search
+  * Recursion
+  * Merge Sort
 
