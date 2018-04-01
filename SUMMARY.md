@@ -12,7 +12,7 @@
   * [数组Arrays](chapter1/shu-zu-arrays.md)
 * Week2
   * 算法
-  * selection Sort选择排序
+  * [selection Sort选择排序](selection-sortxuan-ze-pai-xu.md)
   * Bubble sort冒泡排序
   * Insertion sort插入排序
   * Linear Search
